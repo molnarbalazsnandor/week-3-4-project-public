@@ -1,0 +1,1 @@
+A Győri Puha Praclik Egyesület 2018-ban civil csoportként indult, majd 2019. augusztusban sikerült egyesületté válniuk, amit Polgár Veronika és Rikovics Anita visz a hátán főállásuk mellett számos önkéntessel karöltve, hogy minél több beteg, rászoruló cicát megmentsenek és ellássanak.

@@ -1,0 +1,563 @@
+/* --- start of CSS reset --- */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  background: transparent;
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+a img {
+  border: none;
+}
+
+button,
+a {
+  cursor: pointer;
+  color: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+button,
+textarea,
+select {
+  appearance: none !important;
+  border-radius: 0;
+}
+
+/* --- end of CSS reset --- */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(/pictures/landingbackground2.jpg);
+  background-size: 100%;
+  background-repeat: repeat;
+  width: 100%;
+}
+
+.fooldal {
+  width: 100%;
+}
+
+/* NAVBAR */
+
+#menu {
+}
+
+.navbar {
+  align-items: center;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 120px;
+  background-color: #d1f1fe;
+  box-shadow: 0 0 20px rgb(0, 0, 0);
+  color: #58326f;
+}
+
+.logo {
+  position: absolute;
+  left: 150px;
+}
+
+.navbarbuttons {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  left: 250px;
+}
+
+.navbar a {
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 40px;
+  border-right: 200px;
+  font-family: "Signika Negative", sans-serif;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  background: #f2a14f;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+/* FŐOLDAL CONTAINER */
+
+#container {
+  background-color: rgba(88, 50, 111, 0.5);
+  box-shadow: 0 0 20px black;
+  border-radius: 30px;
+  width: 80%;
+  height: 600px;
+  left: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.container1 {
+  width: 45%;
+  height: 600px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  padding: 10px;
+}
+
+.container2 {
+  width: 50%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.fokep1 {
+  width: 250px;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  display: flex;
+  bottom: 40px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.cica1 {
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  display: flex;
+  top: 180px;
+  right: 260px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.cica2 {
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  display: flex;
+  top: 280px;
+  right: 180px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.cica3 {
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  display: flex;
+  top: 280px;
+  left: 180px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.cica4 {
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  display: flex;
+  top: 180px;
+  left: 260px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.landing_h1 {
+  color: white;
+  font-size: 80px;
+  position: absolute;
+  bottom: 180px;
+  font-family: "Signika Negative", sans-serif;
+  text-shadow: 0 0 20px #58326f;
+}
+
+.button {
+  background-color: #f2a14f;
+  font-family: "Signika Negative", sans-serif;
+  font-size: 40px;
+  border-radius: 30px;
+  position: absolute;
+  color: #58326f;
+  padding: 10px;
+  left: 1%;
+  bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+.button:hover {
+  font-size: 164px;
+  background-color: #ff2945;
+  transition: all 3s ease;
+}
+
+/* MOTIVÁCIÓS SÁV */
+
+#motivacios_sav {
+}
+.mot_tabla {
+  display: flex;
+  position: relative;
+  /*   top: -100px; */
+  left: 8vw;
+  height: 200px;
+  width: 80vw;
+  background-color: #58326f;
+  /*   background: linear-gradient(left, #58326f, 0%); */
+  border-radius: 30px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.mot_tartalom {
+  height: 200px;
+  width: 65vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-right: 50px;
+}
+.motivacios_cica {
+  position: absolute;
+  left: -6vw;
+}
+
+.mot_p {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Signika Negative", sans-serif;
+}
+
+.mot_vonal {
+  background-color: white;
+  width: 3px;
+  height: 130px;
+  border-radius: 50%;
+}
+
+/* CICAKÁRTYÁK */
+
+#cicaink {
+  height: 80vh;
+  display: flex;
+  /*   top: 200px; */
+  justify-content: space-evenly;
+  align-items: center;
+  background-size: 100vw;
+  position: relative;
+}
+
+.cica-kartya {
+  width: 250px;
+  height: 450px;
+  background-color: #58326f;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  position: relative;
+  box-shadow: 0px 0px 5px black;
+}
+
+.cica-profil {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  position: absolute;
+  top: 4%;
+  box-shadow: 0px 0px 5px black;
+}
+
+.cica-adatok {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  height: 60%;
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  background-color: white;
+  border-radius: 30px;
+  font-family: "Signika Negative", sans-serif;
+}
+
+.adoptalom {
+  position: absolute;
+  bottom: 7%;
+  background-color: #ff2945;
+  color: white;
+  border-radius: 20px;
+  padding: 5px 15px;
+  font-size: 16px;
+  font-family: "Signika Negative", sans-serif;
+  box-shadow: 0px 0px 2px rgb(148, 48, 48);
+}
+
+.adoptalom:hover {
+  font-size: 20px;
+  transition: all 0.5s ease;
+}
+
+.cica-adatok > h2 {
+  font-family: "Signika Negative", sans-serif;
+  padding-bottom: 5px;
+}
+
+.cica-adatok > p {
+  text-align: justify;
+}
+
+.cica-adatok > h4 {
+  padding-bottom: 5px;
+}
+
+/* RÓLUNK */
+
+#rolunk {
+  width: 100%;
+  height: 600px;
+  /* background-size: 100vw; */
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  /* right: 120px; */
+  top: -80px;
+  font-family: "Signika Negative", sans-serif;
+  /* background-image: url("pictures/landingbackground2.jpg"); */
+}
+
+.aboutUs {
+  width: 800px;
+  height: 500px;
+  background-color: rgba(88, 50, 111, 0.5);
+  border-radius: 30px;
+  display: flex;
+  position: absolute;
+  right: 140px;
+  box-shadow: 0px 0px 20px black;
+  color: #3a2149;
+}
+
+.rolunk_kep {
+  width: 250px;
+  height: 250px;
+  border-top-left-radius: 30px;
+}
+
+.rolunk_info {
+  display: flex;
+  justify-items: center;
+  justify-content: space-evenly;
+  padding: 5px;
+  position: absolute;
+  left: 250px;
+  flex-direction: column;
+  height: 250px;
+  width: 550px;
+  border-top-right-radius: 30px;
+  background-color: #f2a14f;
+}
+
+.rolunk_h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.rolunk_h2 {
+  text-align: left;
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+.rolunk_szöveg {
+  width: 800px;
+  height: 250px;
+  position: absolute;
+  text-align: justify;
+  padding: 10px;
+  margin-top: 250px;
+  left: 0;
+  color: white;
+}
+
+/* Cica kártya kicsiben */
+
+.cica-kartya-kicsi {
+  width: 250px;
+  height: 350px;
+  background-color: #58326f;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  position: relative;
+  box-shadow: 0px 0px 5px black;
+}
+
+.cica-profil-kicsi {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  position: absolute;
+  top: 6%;
+  box-shadow: 0px 0px 5px black;
+}
+
+.cica-adatok-kicsi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.cica-adatok-kicsi > h2 {
+  font-family: "Signika Negative", sans-serif;
+  padding-bottom: 10px;
+}
+
+.cica-adatok-kicsi > p {
+  text-align: justify;
+}
+
+.cica-adatok-kicsi > h4 {
+  padding-bottom: 10px;
+}
+
+.lina {
+  position: absolute;
+  left: 20vw;
+}
+
+#tamogass {
+  width: 100%;
+  height: 600px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  /*   top: 300px; */
+  font-family: "Signika Negative", sans-serif;
+}
+
+.kesudio {
+  position: absolute;
+  right: 20vw;
+}
+
+.konyorges {
+  width: 800px;
+  height: 500px;
+  background-color: rgba(88, 50, 111, 0.5);
+  border-radius: 30px;
+  display: flex;
+  position: absolute;
+  left: 140px;
+  box-shadow: 0px 0px 20px black;
+  color: #3a2149;
+}
+
+/* GALÉRIA */
+
+.gallery {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 200px;
+  margin-top: 100px;
+}
+
+.gallery h2 {
+  font-family: "Signika Negative", sans-serif;
+  font-size: 48px;
+  margin-bottom: 40px;
+  color: #58326f;
+}
+
+.albums .row {
+  display: flex;
+  column-gap: 40px;
+}
+
+.albums .row .album {
+  display: block;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 10px solid white;
+  border-radius: 40px;
+}
+
+.albums .row .album .shade {
+  position: relative;
+  width: 100%;
+  height: 320px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  transition: all 0.5s ease;
+}
+
+.albums .row .album .shade:hover {
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.albums .row .album .title {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  font-family: "Signika Negative", sans-serif;
+  font-size: 40px;
+  color: white;
+}
+
+.rights {
+  color: #3a2149;
+  font-family: "Signika Negative", sans-serif;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
