@@ -97,7 +97,7 @@ body {
 .navbar a:hover {
   background: #f2a14f;
   border-radius: 30px;
-  transition: 0.5s;
+  transition: all 0.5s ease;
 }
 
 /* FŐOLDAL CONTAINER */
